@@ -1,0 +1,15 @@
+spring:
+  servlet:
+    multipart:
+      max-file-size: 10MB
+      max-request-size: 10MB
+#minio配置
+  minio:
+    endpoint: http://8.140.163.68:9000
+    access-key: minio
+    secret-key: minio123
+    bucket-name: crays
+  thymeleaf:
+    cache: false
+server:
+  port: 8081
